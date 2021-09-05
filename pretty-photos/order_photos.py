@@ -1,4 +1,3 @@
-
 import datetime as dt
 import random
 import typing as _t
@@ -85,10 +84,7 @@ def parse_photo_times(input_dir: Path) -> _t.Dict[Path, str]:
 
         photo_times[photo_path] = photo_time
 
-    _LOGGER.info(
-        f'FOUND dates: {num_dates_found} '
-        f'MISSING dates: {num_dates_missing}\n'
-    )
+    _LOGGER.info(f'FOUND dates: {num_dates_found} MISSING dates: {num_dates_missing}\n')
 
     return photo_times
 
@@ -158,7 +154,7 @@ def interpolate_photo_times(photo_times: _t.Dict[Path, str]) -> _t.Dict[Path, st
 
         # Find nearest next neighbor
         next_time = None
-        for next_photo in sorted_photos[photo_ind + 1:]:
+        for next_photo in sorted_photos[photo_ind:][1:]:
             if not is_valid_for_interpolation(next_photo):
                 continue
 
@@ -186,10 +182,7 @@ def interpolate_photo_times(photo_times: _t.Dict[Path, str]) -> _t.Dict[Path, st
         num_interpolated += 1
         _LOGGER.info(f'INTERPOLATE: Set [time={photo_time}] for [photo={photo_path}]')
 
-    _LOGGER.info(
-        f'INTERPOLATED times: {num_interpolated} '
-        f'FAILED times: {num_failed}\n'
-    )
+    _LOGGER.info(f'INTERPOLATED times: {num_interpolated} FAILED times: {num_failed}\n')
 
     return photo_times
 
