@@ -1,4 +1,4 @@
-## pretty-photos
+## :camera_flash: pretty-photos
 
 Sometimes photos extracted from other devices or elsewhere have names that are difficult to interpret
 
