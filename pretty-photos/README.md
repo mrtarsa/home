@@ -13,7 +13,7 @@ IMG_2431.JPEG
 
 Usually, but not always, those files contain metadata or properties with their creation time.
 
-Script loops through all photos or videos of input dir and renames them according to their creation time.
+Script iterates over all photos or videos inside input dir and renames them according to their creation time.
 Often creation time is unknown. In that case, if possible, script will interpolate random time from nearby photos
 
 
