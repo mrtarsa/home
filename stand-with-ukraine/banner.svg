@@ -1,0 +1,65 @@
+<svg viewBox="0 0 1040 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+@namespace svg url(http://www.w3.org/2000/svg);
+
+svg {
+  font-family: Helvetica, Arial, sans-serif;
+  text-rendering: geometricPrecision;
+}
+svg|a:link, svg|a:visited {
+  cursor: pointer;
+}
+.flag-blue {
+  fill: #0057b7;
+}
+.flag-yellow {
+  fill: #ffd700;
+}
+.message {
+  fill: white;
+  font-size: 20px;
+}
+.call {
+  fill: black;
+  font-size: 32px;
+}
+.mobile-only {
+  display: none;
+}
+.arrow {
+  font-size: 24px;
+}
+@media (max-width: 770px) {
+  .message {
+    display: none;
+    font-size: 29px;
+  }
+  .mobile-only {
+    display: inherit;
+  }
+  .call {
+    font-size: 36px;
+  }
+}
+  </style>
+
+  <a href="https://stand-with-ukraine.pp.ua">
+    <rect x="0" y="0" width="85%" height="120%" class="flag-yellow"/>
+    <rect x="0" y="0" width="85%" height="120px" class="flag-blue"/>
+    <text x="0" y="25" class="message">
+      <tspan x="70" dy="0.45em">This is personal profile of a civilian from Ukraine. russia has invaded my country,</tspan>
+      <tspan x="70" dy="1.50em">killed and continues to kill our people, destroyed and continues to destroy our land.</tspan>
+      <tspan x="70" dy="1.50em">We need your help in stopping <tspan font-weight="bold">genocide</tspan> started by russian regime!</tspan>
+    </text>
+    <text x="0" y="25" class="message mobile-only">
+      <tspan x="70" dy="0.45em">This is personal profile of a civilian from Ukraine. russia has invaded my country,</tspan>
+      <tspan x="70" dy="1.50em">killed and continues to kill our people, destroyed and continues to destroy our land.</tspan>
+      <tspan x="70" dy="1.50em">We need your help in stopping <tspan font-weight="bold">genocide</tspan> started by russian regime!</tspan>
+    </text>
+
+    <text x="42.5%" y="90%" dominant-baseline="middle" text-anchor="middle" class="call">
+      Help Ukraine Now <tspan dominant-baseline="middle" class="arrow">➔</tspan>
+    </text>
+  </a>
+
+</svg>
