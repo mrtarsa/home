@@ -39,7 +39,6 @@ svg|a:link, svg|a:visited {
   }
   .call {
     font-size: 36px;
-    color: grey;
   }
 }
   </style>
@@ -47,19 +46,19 @@ svg|a:link, svg|a:visited {
   <a href="https://stand-with-ukraine.pp.ua">
     <rect x="0" y="0" width="100%" height="100%" class="flag-yellow"/>
     <rect x="0" y="0" width="100%" height="100px" class="flag-blue"/>
-    <text x="0" y="25" class="message">
-      <tspan x="20" dy="0.40em">Hello, dear wanderer! I am from Ukraine 🌾🌾🌾</tspan>
-      <tspan x="20" dy="1.20em">russia has invaded my country, continues to kill our people, destroy our land and steal our crops.</tspan>
-      <tspan x="20" dy="1.20em">We need your help in stopping the <tspan font-weight="bold">war</tspan> and <tspan font-weight="bold">genocide</tspan> started by russian regime!</tspan>
+    <text x="50%" y="25" class="message" text-anchor="middle">
+      <tspan x="50%" dy="0.40em">Hello, dear wanderer! I am from Ukraine 🌾🌾🌾</tspan>
+      <tspan x="50%" dy="1.20em">My country is in war and innocent people continue to die.</tspan>
+      <tspan x="50%" dy="1.20em">We need your help in stopping russian terror.</tspan>
     </text>
-    <text x="0" y="25" class="message mobile-only">
-      <tspan x="20" dy="0.40em">Hello, dear wanderer! I am from Ukraine 🌾🌾🌾</tspan>
-      <tspan x="20" dy="1.20em">russia has invaded my country, continues to kill our people, destroy our land and steal our crops.</tspan>
-      <tspan x="20" dy="1.20em">We need your help in stopping the <tspan font-weight="bold">war</tspan> and <tspan font-weight="bold">genocide</tspan> started by russian regime!</tspan>
+    <text x="50%" y="25" class="message mobile-only" text-anchor="middle">
+      <tspan x="50%" dy="0.40em">Hello, dear wanderer! I am from Ukraine 🌾🌾🌾</tspan>
+      <tspan x="50%" dy="1.20em">My country is in war and innocent people continue to die.</tspan>
+      <tspan x="50%" dy="1.20em">We need your help in stopping russian terror.</tspan>
     </text>
 
-    <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle" class="call" style="color:grey">
-      Help my country <tspan dominant-baseline="middle" class="arrow">➔</tspan>
+    <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle" class="call">
+      Help Ukraine <tspan dominant-baseline="middle" class="arrow">➔</tspan>
     </text>
   </a>
 
